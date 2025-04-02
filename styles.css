@@ -1,0 +1,48 @@
+
+.container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: lightgreen;
+    color: slateblue;
+}
+@media (max-width: 480px) {
+    .container {
+      background-color: lightblue; /* Regra responsiva */
+    }
+  }
+
+.cabecalho {
+    background-color: #f0f8ff;
+    text-align: center;
+}
+
+.titulo {
+    color: indianred;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.subtitulo {
+    color: lightseagreen;
+}
+
+.conteudo {
+    background-color: lightsalmon;
+    color: aquamarine;
+}
+
+.conteudo > p {
+    color: #E4005A;
+    font-size: 42px;
+}
+
+.conteudo > p:nth-child(3) {
+    color: purple;     
+    vertical-align: sub; 
+}
+
+@media (max-width: 480px) {
+    #container {        
+        background-color: lightblue;
+    }
+}
